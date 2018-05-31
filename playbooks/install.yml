@@ -6,6 +6,8 @@
 # 'setup:' to get them after the python 2 interpreter has been installed.
 # See 'pre_tasks' below
   gather_facts: no
+  force_handlers: true
+  
   pre_tasks:
     # If python doesn't exist on path (type returns non-zero), install python
     - name: OpenVPN | install | Install python2 if necessary

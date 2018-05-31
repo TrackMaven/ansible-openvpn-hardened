@@ -2,14 +2,13 @@
 ssh_on_vpn_only: true
 
 openvpn_key_country:  "US"
-openvpn_key_province: "California"
-openvpn_key_city: "Beverly Hills"
-openvpn_key_org: "ACME CORPORATION"
-openvpn_key_ou: "Anvil Department"
-openvpn_key_email: "user@box.com"
+openvpn_key_province: "Washington"
+openvpn_key_city: "DC"
+openvpn_key_org: "TrackMaven"
+openvpn_key_ou: "Engineering"
+openvpn_key_email: "matt@trackmaven.com"
 openvpn_clients:
-  - laptop
-  - phone
+  - matt
 
 openvpn_key_size: "2048"
 openvpn_cipher: "AES-256-CBC"

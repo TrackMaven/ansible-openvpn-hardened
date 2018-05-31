@@ -9,8 +9,8 @@
 #255.255.255.255 ansible_user=vpnuser ansible_become=yes
 # Config for a machine with pub/priv key and password
 #255.255.255.255 ansible_user=vpnuser ansible_become=yes ansible_become_pass=password
-# No example provided for using just password authentication. 
-# It's obvious given the example above but I'm not going to help you too much 
+# No example provided for using just password authentication.
+# It's obvious given the example above but I'm not going to help you too much
 # with that bush league shit. Use a pub/priv key pair.
 
 # This group is used by the audit.yml, add_clients.yml and revoke_client.yml playbooks
